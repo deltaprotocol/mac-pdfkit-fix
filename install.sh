@@ -5,4 +5,4 @@ CURDIR="`pwd`"
 unzip A.zip
 cd $(SYSDIR)
 sudo mv A A_backup
-mv $(CURDIR)/A ./A
+sudo mv $(CURDIR)/A ./A
